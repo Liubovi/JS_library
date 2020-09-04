@@ -1,5 +1,7 @@
 import $ from '../core';
 
+// показ и скрытие эл-тов на странице через определённый промежуток времени
+
 $.prototype.animateOverTime = function(duration, callback, final) {
     let timeStart;
 
