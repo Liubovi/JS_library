@@ -5,6 +5,7 @@ import './modules/classes';
 import './modules/handlers';
 import './modules/actions';
 import './modules/effects';
+import './components/dropdown';
 
 
 

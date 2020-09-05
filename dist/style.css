@@ -12,7 +12,7 @@
 * {
   font-family: 'Roboto', sans-serif; }
 
-btn {
+.btn {
   display: inline-block;
   padding: 10px 20px;
   border: 1px solid #025fff;
@@ -26,67 +26,101 @@ btn {
   font-size: 14px;
   line-height: 1.5;
   transition: all 0.2s; }
-  btn:hover {
+  .btn:hover {
     background-color: #357fff;
     color: #fff; }
-  btn-primary {
+  .btn-primary {
     background-color: #025fff;
     border-color: #025fff;
     color: #fff; }
-    btn-primary:hover {
+    .btn-primary:hover {
       background-color: #004cce; }
-  btn-success {
+  .btn-success {
     background-color: #2a9924;
     border-color: #2a9924;
     color: #fff; }
-    btn-success:hover {
+    .btn-success:hover {
       background-color: #1f701a; }
-  btn-danger {
+  .btn-danger {
     background-color: #ea2e41;
     border-color: #ea2e41;
     color: #fff; }
-    btn-danger:hover {
+    .btn-danger:hover {
       background-color: #d01528; }
-  btn-warning {
+  .btn-warning {
     background-color: #ffc907;
     border-color: #ffc907;
     color: #fff; }
-    btn-warning:hover {
+    .btn-warning:hover {
       background-color: #d3a500; }
-  btn-dark {
+  .btn-dark {
     background-color: #343a40;
     border-color: #343a40;
     color: #fff; }
-    btn-dark:hover {
+    .btn-dark:hover {
       background-color: #1d2124; }
-  btn-outline-primary {
+  .btn-outline-primary {
     border-color: #025fff;
     color: #025fff; }
-    btn-outline-primary:hover {
+    .btn-outline-primary:hover {
       background-color: #025fff; }
-  btn-outline-success {
+  .btn-outline-success {
     border-color: #2a9924;
     color: #2a9924; }
-    btn-outline-success:hover {
+    .btn-outline-success:hover {
       background-color: #2a9924; }
-  btn-outline-danger {
+  .btn-outline-danger {
     border-color: #ea2e41;
     color: #ea2e41; }
-    btn-outline-danger:hover {
+    .btn-outline-danger:hover {
       background-color: #ea2e41; }
-  btn-outline-warning {
+  .btn-outline-warning {
     border-color: #ffc907;
     color: #ffc907; }
-    btn-outline-warning:hover {
+    .btn-outline-warning:hover {
       background-color: #ffc907; }
-  btn-outline-dark {
+  .btn-outline-dark {
     border-color: #343a40;
     color: #343a40; }
-    btn-outline-dark:hover {
+    .btn-outline-dark:hover {
       background-color: #343a40; }
-  btn-block {
+  .btn-block {
     display: block;
     width: 100%; }
+
+.dropdown {
+  position: relative;
+  display: inline-block; }
+  .dropdown-toggle:after {
+    content: '';
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: 3px;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-bottom: 0;
+    border-left: 4px solid transparent; }
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+    background-color: white;
+    min-width: 100%;
+    padding: 10px 0; }
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 7px 10px;
+    color: #343a40;
+    background-color: transparent;
+    border: 0;
+    text-decoration: none; }
+    .dropdown-item:hover {
+      background-color: rgba(0, 0, 0, 0.05); }
 
 .text-center {
   text-align: center; }
